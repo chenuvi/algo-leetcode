@@ -1,6 +1,10 @@
 package two_sum
 
-import "testing"
+import (
+	"fmt"
+	"reflect"
+	"testing"
+)
 
 type charactersState struct {
 	desc     string
@@ -32,7 +36,9 @@ func TestTwoSum(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.desc, func(t *testing.T) {
-			if got := TwoSum(tt.nums, tt.target); got != tt.expected {
+			got := TwoSum(tt.nums, tt.target)
+			fmt.Printf("got = %v, \n", got)
+			if !reflect.DeepEqual(got, tt.expected) {
 				t.Errorf("TwoSum(%v) = %v; want %v", tt.nums, tt.target, tt.expected)
 			}
 		})

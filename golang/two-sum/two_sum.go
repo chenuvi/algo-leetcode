@@ -6,7 +6,7 @@ func TwoSum(nums []int, target int) []int {
 	for index, val := range nums {
 		r := target - val
 		if j, ok := numsMap[r]; ok {
-			return []int{index, j}
+			return []int{j, index}
 		}
 		numsMap[val] = index
 	}
