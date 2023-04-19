@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"golang/binary_search"
+	"golang/array/binary_search"
 )
 
 func main() {
