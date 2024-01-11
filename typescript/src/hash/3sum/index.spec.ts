@@ -11,10 +11,10 @@ describe("threeSum", () => {
 
     const nums2 = [0, 1, 1];
     const expected2: number[][] = [];
-    expect(threeSum()).toEqual(expected2);
+    expect(threeSum(nums2)).toEqual(expected2);
 
     const nums3 = [0, 0, 0];
     const expected3 = [[0, 0, 0]];
     expect(threeSum(nums3)).toEqual(expected3);
   });
-});nums2
+});
