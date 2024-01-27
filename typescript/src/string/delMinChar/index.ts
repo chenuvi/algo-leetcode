@@ -21,3 +21,5 @@ const delMinChar = (str: string): string => {
   }
   return res.join("");
 };
+
+export { delMinChar };

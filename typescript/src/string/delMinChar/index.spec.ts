@@ -12,7 +12,7 @@ describe("add function", () => {
   });
 
   // Test case 3
-  it("should return NaN if one of the arguments is not a number", () => {
+  it("empty string test", () => {
     expect(delMinChar("")).toBe("");
   });
 });
