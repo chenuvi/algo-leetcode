@@ -1,5 +1,5 @@
 use std::collections::HashMap;
-pub struct Solution {}
+use crate::Solution;
 
 #[allow(dead_code)]
 impl Solution {
