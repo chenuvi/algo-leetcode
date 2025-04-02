@@ -1,5 +1,5 @@
-use std::collections::HashMap;
 use crate::Solution;
+use std::collections::HashMap;
 
 #[allow(dead_code)]
 impl Solution {

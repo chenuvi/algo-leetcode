@@ -1,4 +1,4 @@
-use algo_leetcode::stack_and_line::valid_parentheses::Solution;
+use algo_leetcode::Solution;
 
 #[test]
 fn test_empty_string() {
